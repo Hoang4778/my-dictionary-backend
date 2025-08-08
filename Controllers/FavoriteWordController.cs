@@ -98,7 +98,7 @@ namespace backend.Controllers
             }
         }
 
-        [HttpPost]
+        [HttpDelete]
         [Route("delete")]
         public async Task<IActionResult> RemoveFavoriteWords(FavoriteWordsInfo wordInput)
         {
